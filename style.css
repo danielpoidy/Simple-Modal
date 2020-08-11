@@ -38,3 +38,25 @@ button:hover {
     color: #EFB577;
     font-size: 1.1em;
 }
+
+.close-modal {
+    background: #f1ffff;
+    max-width: 27em;
+    height: 15em;
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: 1em;
+    position: relative;
+    top: 20%;
+}
+
+.overlay {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .8);
+}
