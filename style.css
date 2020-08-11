@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F9ECAA;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    background: #2B49C3;
+    padding: 1.5em;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #0764BF;
+    font-size: 1.8em;
+}
+
+button {
+    padding: 1.2em 2em; 
+    background: #EFB577;
+    color: #0764BF;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    border-radius: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #FFF;
+    color: #EFB577;
+    font-size: 1.1em;
+}
